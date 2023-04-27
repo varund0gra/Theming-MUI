@@ -10,6 +10,8 @@ import { makeStyles } from "@material-ui/core";
       margin: theme.spacing(2),
       minWidth: 120,
     },
+
+  
     center: {
       justifyContent: 'center',
       alignItems: 'center',

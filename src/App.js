@@ -1,11 +1,11 @@
-import './App.css';
-import Render from './render/Render';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import Render from "./render/Render";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <Render />     
+      <Render />
     </div>
   );
 }
