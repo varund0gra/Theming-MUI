@@ -1,14 +1,16 @@
 import { useNavigate } from "react-router-dom";
 import { Button, Typography, TextField } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import Footer from "./Footer";
+import DrawerAppBar from "./Navbarcomp";
 
 function Comp2() {
   const route = useNavigate();
   function handlesubmit() {
-    route("/comp3");
+    route("/login");
   }
   return (
-    <div style={{ padding: 70 }}>
+    <div style={{ padding: '70px'  , width : '50%' , margin : 'auto'}}>
+      <DrawerAppBar/>
       <Typography component="h1" variant="h2" color="primary">
         SIGN UP
       </Typography>
@@ -100,6 +102,7 @@ function Comp2() {
         >
           Submit
         </Button>
+        <Footer/>
       </form>
     </div>
   );

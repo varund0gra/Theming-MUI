@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Comp1, Comp2, Comp3 } from "../components";
+import { Comp1, Comp2, Comp3  ,ImgMediaCard,SwipeableTextMobileStepper,Form,FeedbackForm} from "../components";
 import { ThemeProvider } from "@emotion/react";
 import ThemeContext from "../context";
 import Themes from "../Themes";
 import { Paper } from "@mui/material";
-
 function Render() {
   const [theme, setTheme] = useState("default");
   useEffect(() => {
@@ -19,8 +18,9 @@ function Render() {
     <ThemeProvider theme={currentTheme}>
       <ThemeContext.Provider value={{ theme, setTheme }}>
         <Paper
-          style={{
-            height: "100vh",
+          style = {{
+            height: "130vh",
+            overflow:"auto",
             backgroundColor: currentTheme.background,
             color: currentTheme.color,
           }}
@@ -28,13 +28,18 @@ function Render() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Comp1 />} />
-              <Route path="/comp2" element={<Comp2 />} />
-              <Route path="/comp3" element={<Comp3 />} />
+              <Route path="/signup" element={<Comp2 />} />
+              <Route path="/login" element={<Comp3/>} />
+              <Route path="/home" element={<SwipeableTextMobileStepper />} />
+              <Route path="/details" element={<Form/>} />
+              <Route path="/buy" element={<ImgMediaCard/>}/>
+              <Route path="/feedback" element={<FeedbackForm/>}/>
             </Routes>
           </BrowserRouter>
         </Paper>
       </ThemeContext.Provider>
     </ThemeProvider>
+    
   );
 }
 

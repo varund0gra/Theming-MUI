@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import {Box, Button , Container, Typography} from '@mui/material';
-import ThemeContext from "../context";
-import { useContext } from "react";
-import { makeStyles } from "@material-ui/core";
 
+import { makeStyles } from "@material-ui/core";
+import Footer from "./Footer";
+import DrawerAppBar from "./Navbarcomp";
 
   const useStyles = makeStyles((theme) => ({
     formControl: {
@@ -30,28 +30,21 @@ import { makeStyles } from "@material-ui/core";
   }));
 
 function Comp1() {
-  const { theme , setTheme } = useContext(ThemeContext);
+  
   const route = useNavigate();
   function handlesignup() {
-    route("/comp2");
+    route("/signup");
   }
   function handlelogin() {
-    route("/comp3");
+    route("/login");
   }
-  const handleTheme = ()=>{
-    if(theme!=="dark"){
-      return setTheme("dark")
-    }
-    else{
-      return setTheme("light")
-    }
-  }
+  
   const classes = useStyles()
   return (
     <Box className={classes.center}>
       <Container maxWidth="sm">
-    
-      <i style={{fontSize:20}} onClick={handleTheme} class="fa-sharp fa-regular fa-lightbulb"></i>
+      <DrawerAppBar/>
+  
     <Typography variant="h1" color="primary" style={{ fontSize: 100 }} >
       Welcome
     </Typography> <br/>
@@ -75,6 +68,8 @@ function Comp1() {
     >
       Login
     </Button>
+
+    <Footer/>
     </Container>
   </Box>
   );

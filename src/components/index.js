@@ -1,4 +1,10 @@
 import Comp1 from "./comp1";
 import Comp2 from "./comp2";
 import Comp3 from "./comp3";
-export { Comp1, Comp2, Comp3 };
+import DrawerAppBar from "./Navbarcomp";
+import Footer from "./Footer";
+import ImgMediaCard from "./Cards";
+import SwipeableTextMobileStepper from "./crousel";
+import FeedbackForm from "./Feedbackform";
+import Form from "./Form";
+export { Comp1, Comp2, Comp3,DrawerAppBar,Footer,ImgMediaCard, SwipeableTextMobileStepper,Form,FeedbackForm};

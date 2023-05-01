@@ -1,13 +1,25 @@
 import { useNavigate } from "react-router-dom";
 import { Button, Typography, TextField, Box } from "@mui/material";
+import { makeStyles } from "@material-ui/core";
+import Footer from "./Footer";
+import DrawerAppBar from "./Navbarcomp";
+const useStyles = makeStyles((theme) => ({
+  Box: {
+    margin: theme.spacing(8),  
+  },
+  
+}));
 
 function Comp3() {
   const route = useNavigate();
   function handlesubmit() {
-    route("/");
+    route("/home");
   }
+  const classes = useStyles()
   return (
-    <Box>
+    <Box className={classes.Box}>
+      <DrawerAppBar/>
+      <br/><br/>
       <Typography variant="h2" color="primary" align="center">
         LOGIN
       </Typography>
@@ -48,7 +60,8 @@ function Comp3() {
           onClick={handlesubmit}
         >
           Submit
-        </Button>
+        </Button><br/><br/><hr/>
+        <Footer/>
       </Box>
     </Box>
   );
