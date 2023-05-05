@@ -10,11 +10,10 @@ import { makeStyles } from "@material-ui/core";
 import DrawerAppBar from "./Navbarcomp";
 const useStyles = makeStyles((theme) => ({
   Box: {
-    // marginTop: theme.spacing(15),
     border: "1px solid grey",
-    borderRadius: "20px",
+    borderRadius: "10px",
     padding: "40px",
-    width: "70% !important",
+    width: "90% !important",
     margin: "0 auto",
   },
   Bo: {

@@ -21,6 +21,10 @@ import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import { useNavigate } from "react-router-dom";
+import Avatar from "@mui/material/Avatar";
+import Stack from "@mui/material/Stack";
+import { deepOrange, deepPurple } from "@mui/material/colors";
+import Badge from "@mui/material/Badge";
 
 const drawerWidth = 240;
 
@@ -69,7 +73,7 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   justifyContent: "flex-end",
 }));
 
-export default function DrawerAppBar() {
+export default function DrawerAppBar(props) {
   const { theme, setTheme } = useContext(ThemeContext);
   const themed = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -77,6 +81,9 @@ export default function DrawerAppBar() {
   const handleDrawerOpen = () => {
     setOpen(true);
   };
+  function handlecart() {
+    navigate("/cart");
+  }
 
   const handleDrawerClose = () => {
     setOpen(false);
@@ -141,13 +148,29 @@ export default function DrawerAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <i
-            style={{ fontSize: 20, fontWeight: "300" }}
-            onClick={handleTheme}
-            class="fa-sharp fa-regular fa-lightbulb"
-          ></i>
+          <Stack direction="row" spacing={2}>
+            <Avatar sx={{ bgcolor: deepPurple[500] }}>OP</Avatar>
+          </Stack>
+
+          <Badge
+            badgeContent={props.COUNTING}
+            sx={{ display: "flex", marginLeft: "72rem" }}
+            color="primary"
+          >
+            <i
+              style={{ fontSize: 20, fontWeight: "300", padding: "10px" }}
+              onClick={handleTheme}
+              class="fa-sharp fa-regular fa-lightbulb"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping"
+              onClick={handlecart}
+              style={{ padding: "12px" }}
+            ></i>
+          </Badge>
         </Toolbar>
       </AppBar>
+
       <Drawer
         sx={{
           width: drawerWidth,

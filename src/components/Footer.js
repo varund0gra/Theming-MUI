@@ -1,31 +1,37 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
+import { Container } from '@mui/material';
 const useStyles = makeStyles((theme) => ({
   footer: {
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
-    backgroundColor:"inherit"
+    paddingTop: theme.spacing(6),
+    paddingLeft: "0px !important",
+    paddingRight: "0px !important",
+   
+    backgroundColor:"inherit",
+   
   },
 }));
 function Footer() {
   const classes = useStyles();
 
   return (
-    <footer className={classes.footer}>
-      <Typography variant="h6" align="center" gutterBottom>
+    <footer className={classes.footer} > 
+      <Typography variant="h6" gutterBottom>
         Contact Us
       </Typography>
-      <Typography variant="subtitle1" align="center" >
+      <Typography  >
         Let us fix your car!
       </Typography>
-      <Typography variant="body2" align="center">
+      <Typography >
         {'© '}
         <Link color="inherit" href="#">
-          CarCo
+          VechicleCo
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
       </Typography>
+     
     </footer>
   );
 }

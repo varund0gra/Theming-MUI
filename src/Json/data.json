@@ -1,6 +1,6 @@
 [
   {
-    "_id": "64460eebe6625313928145a8",
+    "_id": "1",
     "car_name": "Mercedes",
     "car_type": "Sports",
     "model": "G63",
@@ -9,7 +9,7 @@
     "image": "https://imgd.aeplcdn.com/600x600/cw/ec/33282/MercedesBenz-GClass-Exterior-120349.jpg?wm=0"
   },
   {
-    "_id": "64460f18e6625313928145aa",
+    "_id": "2",
     "car_name": "Audi",
     "car_type": "Sports",
     "model": "R8V10",
@@ -18,7 +18,7 @@
     "image": "https://images.hindustantimes.com/auto/img/2022/10/04/600x338/Audi_R8_V10_GT_RWD_1664858669978_1664858674538_1664858674538.jpeg"
   },
   {
-    "_id": "64460f25e6625313928145ac",
+    "_id": "3",
     "car_name": "Audi",
     "car_type": "Sports",
     "model": "R8",
@@ -27,7 +27,7 @@
     "image": "https://www.topgear.com/sites/default/files/cars-car/image/2022/04/1-Audi-R8.jpg?w=1280&h=720"
   },
   {
-    "_id": "64460f3be6625313928145ae",
+    "_id": "4",
     "car_name": "Toyata",
     "car_type": "Sports",
     "model": "Supra",
@@ -36,7 +36,7 @@
     "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200226111956_Toyota-Supra-rear.jpg&w=700&q=90&c=1"
   },
   {
-    "_id": "64461064e6625313928145b1",
+    "_id": "5",
     "car_name": "Audi",
     "car_type": "Classic",
     "model": "Q5",
@@ -45,7 +45,7 @@
     "image": "https://static.autox.com/uploads/2022/03/Audi-Q5-Front-Three-Quarter-Left.jpg"
   },
   {
-    "_id": "64461083e6625313928145b3",
+    "_id": "6",
     "car_name": "Mahindra",
     "car_type": "4X4",
     "model": "Thar",
@@ -54,7 +54,7 @@
     "image": "https://imgd.aeplcdn.com/0x0/n/cw/ec/40087/thar-exterior-right-front-three-quarter-11.jpeg"
   },
   {
-    "_id": "644610e6e6625313928145b5",
+    "_id": "7",
     "car_name": "Jeep",
     "car_type": "4X4",
     "model": "Rubicon",
@@ -63,7 +63,7 @@
     "image": "https://imgd.aeplcdn.com/0x0/n/cw/ec/54437/2021-wrangler-exterior-right-front-three-quarter-2.jpeg"
   },
   {
-    "_id": "644610fbe6625313928145b7",
+    "_id": "8",
     "car_name": "Jeep",
     "car_type": "4X4",
     "model": "compass",
@@ -72,7 +72,7 @@
     "image": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/47051/compass-exterior-right-front-three-quarter-73.jpeg?isig=0&q=75"
   },
   {
-    "_id": "64461144e6625313928145b9",
+    "_id": "9",
     "car_name": "Porsche",
     "car_type": "sports",
     "model": "911",
@@ -81,7 +81,7 @@
     "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220428060534_Porsche_911_Sport_Classic_2023_front.jpg&w=700&q=90&c=1"
   },
   {
-    "_id": "64461168e6625313928145bb",
+    "_id": "10",
     "car_name": "Porsche",
     "car_type": "sports",
     "model": "Macan",
@@ -90,7 +90,7 @@
     "image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/Macan/8687/1677661032684/front-left-side-47.jpg?impolicy=resize&imwidth=420"
   },
   {
-    "_id": "6446117fe6625313928145bd",
+    "_id": "11",
     "car_name": "Porsche",
     "car_type": "sports",
     "model": "718",
@@ -99,7 +99,7 @@
     "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/24421/718-exterior-right-front-three-quarter-90910.jpeg?q=75"
   },
   {
-    "_id": "644611a1e6625313928145bf",
+    "_id": "12",
     "car_name": "Rolls Royce",
     "car_type": "luxury",
     "model": "Ghost",
@@ -108,7 +108,7 @@
     "image": "https://www.mansory.com/sites/default/files/styles/fullwidth_image_with_custom_ratio/public/2021-07/mansory-rolls-royce-ghost-my-2021-04.jpg?h=859d7c0d&itok=9gcFTvxE"
   },
   {
-    "_id": "64461fb4ed27a1d53e8c2fd6",
+    "_id": "13",
     "car_name": "Hyundai",
     "car_type": "Sports",
     "model": "Verna",
@@ -117,7 +117,7 @@
     "price": 699
   },
   {
-    "_id": "64461ff4ed27a1d53e8c2fd8",
+    "_id": "14",
     "car_name": "Ferrari",
     "car_type": "Sports",
     "model": "812",
@@ -126,7 +126,7 @@
     "price": 1849
   },
   {
-    "_id": "6446201ded27a1d53e8c2fda",
+    "_id": "15",
     "car_name": "Lamborghini",
     "car_type": "Sports",
     "model": "aventador",
@@ -135,7 +135,7 @@
     "price": 2849
   },
   {
-    "_id": "64462042ed27a1d53e8c2fdc",
+    "_id": "16",
     "car_name": "Lamborghini",
     "car_type": "Sports",
     "model": "hurricane",
@@ -144,7 +144,7 @@
     "price": 2809
   },
   {
-    "_id": "64462082ed27a1d53e8c2fde",
+    "_id": "17",
     "car_name": "Maruti Suzuki",
     "car_type": "classic",
     "model": "Brezza",
@@ -153,7 +153,7 @@
     "price": 805
   },
   {
-    "_id": "644620e7ed27a1d53e8c2fe0",
+    "_id": "18",
     "car_name": "Jaquar",
     "car_type": "sports",
     "model": "F-type",
@@ -162,7 +162,7 @@
     "price": 2708
   },
   {
-    "_id": "6446212ced27a1d53e8c2fe2",
+    "_id": "19",
     "car_name": "Land Rover",
     "car_type": "classic",
     "model": "Range-Rover",
@@ -171,7 +171,7 @@
     "price": 1943
   },
   {
-    "_id": "6446216ced27a1d53e8c2fe4",
+    "_id": "20",
     "car_name": "Toyota",
     "car_type": "luxury",
     "model": "Fortuner",
@@ -180,7 +180,7 @@
     "price": 1843
   },
   {
-    "_id": "644621a4ed27a1d53e8c2fe6",
+    "_id": "21",
     "car_name": "Tata",
     "car_type": "4X4",
     "model": "Harrier",
